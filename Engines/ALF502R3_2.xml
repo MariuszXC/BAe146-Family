@@ -24,7 +24,7 @@
 	Aero-Matic [4] input: 30000N thrust, no afterburner, no water injection.
 -->
 
-<turbine_engine name="ALF502R3_2" file="master_ia.xml">
+<turbine_engine name="ALF502R3_2">
 
 &master_ia;
 
