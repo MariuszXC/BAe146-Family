@@ -1,0 +1,40 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+
+<!--
+	Lycoming ALF 502 R3
+	[1] see: https://en.wikipedia.org/wiki/Lycoming_ALF_502
+	[2] see: https://wiki.flightgear.org/JSBSim_Engines#FGTurbine
+	[3] see: https://en.wikipedia.org/wiki/British_Aerospace_146#cite_note-FI951206-101
+	[4] see: https://jsbsim.sourceforge.net/aeromatic2.html
+
+	1 kN = 224.8089 lbf
+
+	5441 lb / h	 @ 425kn , FL310	ref:[3]
+	3514 lb / h	 @ 361kn , FL310	ref:[3]
+
+	0.406 lb/lbf/h	ref:[1]
+
+	dry weight: 606kg
+	length: 1.615m
+	diameter (fan): 1022mm
+
+	Aero-Matic [4] input: 30000N thrust, no afterburner, no water injection.
+-->
+
+	<milthrust unit="N">30000</milthrust>
+	<bypassratio>5.7</bypassratio>
+	<bleed>0.04</bleed>
+	<tsfc>0.406</tsfc>
+	<augmented>0</augmented>
+	<injected>0</injected>
+	<n1spinup>1</n1spinup>
+	<n2spinup>2</n2spinup>
+	<ignitionn1>15</ignitionn1>
+	<ignitionn2>20</ignitionn2>
+	<n1startrate>1.4</n1startrate>
+	<n2startrate>2.0</n2startrate>
+	<!-- following numbers from Aero-Matic v.0.83,	ref:[4] -->
+	<idlen1>30</idlen1>
+	<idlen2>60</idlen2>
+	<maxn1>100</maxn1>
+	<maxn2>100</maxn2>

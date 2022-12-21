@@ -179,7 +179,7 @@
 	<buoyant_forces></buoyant_forces>
 
 	<propulsion>
-		<engine file="ALF502R3">
+		<engine file="ALF502R3_1">
 			<!--location unit="IN">
 				<x> 1514.88 </x>
 				<y> -60.00 </y>
@@ -205,7 +205,7 @@
 			</thruster>
 		</engine>
 
-		<engine file="ALF502R3">
+		<engine file="ALF502R3_2">
 			<!--location unit="IN">
 				<x> 1514.88 </x>
 				<y> -20.00 </y>
