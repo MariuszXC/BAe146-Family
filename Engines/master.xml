@@ -1,4 +1,4 @@
-<!--?xml version="1.0" encoding="UTF-8"?-->
+<?xml version="1.0" encoding="UTF-8"?>
 
 <!--
 	Lycoming ALF 502 R3
@@ -21,6 +21,7 @@
 	Aero-Matic [4] input: 30000N thrust, no afterburner, no water injection.
 -->
 
+<!--turbine_engine-->
 	<milthrust unit="N">30000</milthrust>
 	<bypassratio>5.7</bypassratio>
 	<bleed>0.04</bleed>
@@ -38,3 +39,4 @@
 	<idlen2>60</idlen2>
 	<maxn1>100</maxn1>
 	<maxn2>100</maxn2>
+<!--/turbine_engine-->

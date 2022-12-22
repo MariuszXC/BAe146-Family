@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ALF502R3_2 [
-<!ENTITY master_ia SYSTEM "master_ia.xml">
-]>
 
 <!--
 	Lycoming ALF 502 R3
@@ -24,9 +21,10 @@
 	Aero-Matic [4] input: 30000N thrust, no afterburner, no water injection.
 -->
 
-<turbine_engine name="ALF502R3_2">
+<turbine_engine name="ALF502R3_2"
+	xmlns:xi="http://www.w3.org/2001/XInclude">
 
-&master_ia;
+	<xi:include href="master_ia.xml"/>
 
 	<function name="IdleThrust"><!-- These VALUES are COPIED from A320 to get started only! REPLACE!! -->
 		<table>
